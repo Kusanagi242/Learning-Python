@@ -1,0 +1,35 @@
+import os
+
+# DEFINE GAME SCREEN DIMENSIONS
+WINDOW_WIDTH = 900
+WINDOW_HEIGHT = 600
+
+# LINK: https://htmlcolorcodes.com/
+COLOR_BLACK = ( 12,  12,  12)
+COLOR_BROWN = (162,  71,  41)
+COLOR_RED   = (255,   0,   0)
+COLOR_GREEN = (  0, 255,   0)
+COLOR_BLUE  = (  0,   0, 255)
+COLOR_WHITE = (255, 255, 255)
+COLOR_YELLOW = (237, 246,  36) 
+
+# LINE DIMENSION DEFINE
+LINE_WIDTH = 10
+
+# PLAYER DEFINE
+PLAYER_WIDTH    = 20 # pixels
+PLAYER_HEIGHT   = 100
+PLAYER_VELOCITY = 20
+
+# BALL DEFINE
+BALL_SIZE = 10
+BALL_VELOCITY = 5
+
+# Check the path of image folder
+PATH_DIRECTORY = os.path.dirname(__file__)
+PATH_IMAGES = os.path.join(PATH_DIRECTORY, 'images/')
+
+
+
+
+
